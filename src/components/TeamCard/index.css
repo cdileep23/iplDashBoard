@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+/* Write your CSS here */
+.eachTeamCard {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  background-color: #ffffff33;
+  border-color: white;
+  border-style: solid;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.franchise-logo {
+  width: 80px;
+}
+
+.teamName {
+  border-width: 0px;
+  text-decoration: aliceblue;
+  font-size: 20px;
+}
+.forLink {
+  text-decoration: none;
+}

@@ -1,0 +1,50 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.latest-match-card {
+  background-color: #1e293b;
+  font-family: 'Bree Serif';
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.latestMatch-card-result {
+  width: 30%;
+  text-align: left;
+  font-family: 'Bree Serif';
+}
+
+.competing-team-logo {
+  width: 30%;
+}
+.latest-match-details {
+  width: 30%;
+  text-align: right;
+}
+@media only screen and (max-width: 576px) {
+  .latest-match-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .latestMatch-card-result {
+    width: 100%;
+    order: 4;
+    text-align: center;
+  }
+  .competing-team-logo {
+    width: 50%;
+    order: 2;
+    text-align: center;
+  }
+  .latest-match-details {
+    width: 100%;
+    order: 2;
+    text-align: center;
+  }
+}

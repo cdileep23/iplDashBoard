@@ -1,0 +1,99 @@
+/* Write your CSS here */
+
+/* Write your CSS here */
+.bgCont-KXP {
+  background: linear-gradient(#a4261d, #1e293b);
+  min-height: 100vh;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Bree Serif';
+}
+
+.bgCont-MI {
+  background: linear-gradient(#13418b, #1e293b);
+  min-height: 100vh;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Bree Serif';
+}
+.bgCont-RCB {
+  background: linear-gradient(#d91c1f, #1e293b);
+
+  min-height: 100vh;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Bree Serif';
+}
+.bgCont-CSK {
+  background: linear-gradient(#f7db00, #1e293b);
+  min-height: 100vh;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Bree Serif';
+}
+.bgCont-DC {
+  background: linear-gradient(#4f5db0, #1e293b);
+  min-height: 100vh;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Bree Serif';
+}
+.bgCont-SH {
+  background: linear-gradient(#f26d22, #1e293b);
+  min-height: 100vh;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Bree Serif';
+}
+.bgCont-RR {
+  background: linear-gradient(#da237b, #1e293b);
+  min-height: 100vh;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Bree Serif';
+}
+
+.bgCont-KKR {
+  background: linear-gradient(#0f172a, #1e293b);
+  min-height: 100vh;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Bree Serif';
+}
+.bannerTeam {
+  width: 100%;
+
+  font-family: 'Bree Serif';
+}
+.latest-match-heading {
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 576px) {
+  .latest-match-heading {
+    font-size: 20px;
+  }
+}
+
+.allMatchesList {
+  padding: 0px;
+  list-style-type: none;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 576px) {
+  .allMatchesList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
